@@ -1,0 +1,41 @@
+{
+  "name": "lucys-daddys-game",
+  "version": "1.0.0",
+  "description": "This is a game Lucy and Daddy are making together",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "redux": "^3.3.1",
+    "touches": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "game"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikkoh/lucys-daddys-game.git"
+  },
+  "homepage": "https://github.com/mikkoh/lucys-daddys-game",
+  "bugs": {
+    "url": "https://github.com/mikkoh/lucys-daddys-game/issues"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
